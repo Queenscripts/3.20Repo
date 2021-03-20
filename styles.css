@@ -1,0 +1,98 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  
+  #heroGrid{
+    display: grid; 
+    grid-template-columns: auto auto auto; 
+    grid-template-rows: auto auto auto; 
+    grid-template-areas: 'header header';
+    background-image: url("https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px; 
+  }
+  
+  .heroGridArea{
+    
+    grid-row-start: 3;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    display: grid;
+    z-index: 1;
+  }
+  #secondaryProduct{
+    margin: 60%;
+  }
+  #headline{
+      background: rgba(255, 255, 255, .7);
+  }
+  
+  /* Navigation CSS */
+  /* CHECK OUT THIS CODE BELOW IF YOU WANT TO GET A REFRESHER ON FLEX */
+  #navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+  }
+  #navBar h1 {
+    width: 25%;
+    font-weight: 500;
+  }
+  #navigation {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #navigation p {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 25%;
+  }
+  .icons img {
+    margin: 15px;
+    cursor: pointer;
+  }
+  .highlight {
+    color: #39426c;
+    font-weight: 700;
+  }
+  
+  /* Typography CSS */
+  
+  h2 {
+    font-size: 60px;
+    margin: 0px 0px;
+    color: #FF6200;
+  }
+  
+  h3 {
+    font-size: 32px;
+    font-weight: 300;
+    margin: 0px 0px;
+  }
+  
+  h4 {
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+  }
+  
+  
+  #headline p {
+    max-width: 350px;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0px 0px;
+    color: #39426c;
+  }
+  
